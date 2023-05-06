@@ -1,0 +1,156 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set basic styles for the website */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  header {
+
+    background-color: #333;
+    color: #342626;
+    padding: 20px;
+  }
+  
+
+  header {
+    background-color:transparent;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  nav ul  li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  section#home{
+    text-align: center;
+  }
+  section#home h2{
+    color: #1bc27c;
+  
+  
+  }
+  
+  nav {
+    flex: 2;
+    text-align: right;
+  }
+  
+  nav a {
+    margin-left: 20px;
+  }
+  .top h1{
+    color: black;
+    
+    
+  }
+  
+  section {
+    padding: 20px;
+  }
+  h1{
+    color: #333;
+  }
+  
+  h2 {
+    color: #bced61;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+ #home h3{color: #1bc27c;
+
+ }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add your custom styles here */
+  
+  /* Example: Style the home section */
+  #home {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ */
+  
+  #menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* #menu ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  } */
+  
+  /* Example: Style the contact form */
+  #contact form input[type="text"],
+  #contact form input[type="email"],
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #contact form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  footer{
+    text-align: center;
+  }
